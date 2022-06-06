@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".DashboardActivity">
+
+    <Button
+        android:id="@+id/btnJobs"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/bg_white"
+        android:textColor="@color/blue2"
+        android:text="Jobs"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:backgroundTint="@null"/>
+
+    <Button
+        android:id="@+id/btnProfile"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/bg_white"
+        android:textColor="@color/blue2"
+        android:text="Profile"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:backgroundTint="@null"/>
+
+    <Button
+        android:id="@+id/btnChangePsw"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/bg_white"
+        android:textColor="@color/blue2"
+        android:text="Change Password"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:backgroundTint="@null"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/bg_white"
+        android:textColor="@color/blue2"
+        android:text="Logout"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:backgroundTint="@null"/>
+
+</LinearLayout>
